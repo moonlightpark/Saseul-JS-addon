@@ -9,7 +9,7 @@ function sleep(ms) {
 }
 
 (async function () {
-	console.log('Please enter Saseul wallet address.');
+    console.log('Please enter Saseul wallet address.');
     let Myaddress = prompt();
     
     let root = path.dirname(__dirname);
